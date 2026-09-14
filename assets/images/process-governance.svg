@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Libertas process governance map</title>
+  <desc id="desc">A seven stage process from contracting and escrow funding through validation, UAT, confidence scoring, and release.</desc>
+  <defs>
+    <linearGradient id="topline" x1="0" x2="1">
+      <stop offset="0" stop-color="#e1261c"/>
+      <stop offset=".5" stop-color="#86bc25"/>
+      <stop offset="1" stop-color="#a100ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="520" fill="#050505"/>
+  <rect x="0" y="0" width="1200" height="8" fill="url(#topline)"/>
+  <rect x="48" y="48" width="1104" height="424" rx="8" fill="#111315" stroke="#32363b"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="82" y="104" fill="#ffffff" font-size="36" font-weight="850">From contract language to confident release</text>
+    <text x="82" y="140" fill="#b9bec5" font-size="18">Capital, delivery evidence, and acceptance rules move together.</text>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15">
+    <line x1="128" x2="1072" y1="266" y2="266" stroke="#555b62" stroke-width="4"/>
+    <g>
+      <rect x="104" y="242" width="48" height="48" rx="4" fill="#e1261c"/>
+      <text x="88" y="344" fill="#ffffff" font-weight="800">Contract</text>
+      <text x="70" y="370" fill="#b9bec5">Escrow terms</text>
+    </g>
+    <g>
+      <rect x="262" y="242" width="48" height="48" rx="4" fill="#ffffff"/>
+      <text x="260" y="344" fill="#ffffff" font-weight="800">Fund</text>
+      <text x="238" y="370" fill="#b9bec5">Tranches</text>
+    </g>
+    <g>
+      <rect x="420" y="242" width="48" height="48" rx="4" fill="#86bc25"/>
+      <text x="410" y="344" fill="#ffffff" font-weight="800">Scope</text>
+      <text x="385" y="370" fill="#b9bec5">L1-L6 review</text>
+    </g>
+    <g>
+      <rect x="578" y="242" width="48" height="48" rx="4" fill="#ffffff"/>
+      <text x="570" y="344" fill="#ffffff" font-weight="800">Build</text>
+      <text x="548" y="370" fill="#b9bec5">Evidence trail</text>
+    </g>
+    <g>
+      <rect x="736" y="242" width="48" height="48" rx="4" fill="#86bc25"/>
+      <text x="724" y="344" fill="#ffffff" font-weight="800">Validate</text>
+      <text x="710" y="370" fill="#b9bec5">UAT + code</text>
+    </g>
+    <g>
+      <rect x="894" y="242" width="48" height="48" rx="4" fill="#a100ff"/>
+      <text x="884" y="344" fill="#ffffff" font-weight="800">Score</text>
+      <text x="862" y="370" fill="#b9bec5">Go-live confidence</text>
+    </g>
+    <g>
+      <rect x="1048" y="242" width="48" height="48" rx="4" fill="#e1261c"/>
+      <text x="1036" y="344" fill="#ffffff" font-weight="800">Release</text>
+      <text x="1014" y="370" fill="#b9bec5">Funds or hold</text>
+    </g>
+  </g>
+</svg>
